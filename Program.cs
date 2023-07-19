@@ -1,4 +1,4 @@
-namespace _3Dplot
+namespace Plot3D
 {
     internal static class Program
     {

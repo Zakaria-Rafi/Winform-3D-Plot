@@ -1,4 +1,4 @@
-﻿namespace _3Dplot
+﻿namespace Plot3D
 {
     partial class Form1
     {
@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            graphiqueUtilisateur2 = new plot.GraphiqueUtilisateur();
+            plot1 = new Plot();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(21, 98);
+            button1.Location = new Point(104, 128);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
@@ -42,25 +42,24 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // graphiqueUtilisateur2
+            // plot1
             // 
-            graphiqueUtilisateur2.Azimut = 0D;
-            graphiqueUtilisateur2.Distance = 5D;
-            graphiqueUtilisateur2.Elevation = 0D;
-            graphiqueUtilisateur2.F = 1000D;
-            graphiqueUtilisateur2.Location = new Point(179, 45);
-            graphiqueUtilisateur2.Margin = new Padding(4, 3, 4, 3);
-            graphiqueUtilisateur2.Name = "graphiqueUtilisateur2";
-            graphiqueUtilisateur2.PositionCamera = new double[] { 0D, 0D, -5D };
-            graphiqueUtilisateur2.Size = new Size(599, 376);
-            graphiqueUtilisateur2.TabIndex = 2;
+            plot1.Azimuth = 0D;
+            plot1.CameraPos = new double[] { 0D, 0D, 0D };
+            plot1.Distance = 5D;
+            plot1.Elevation = 0D;
+            plot1.F = 1000D;
+            plot1.Location = new Point(287, 45);
+            plot1.Name = "plot1";
+            plot1.Size = new Size(323, 298);
+            plot1.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 483);
-            Controls.Add(graphiqueUtilisateur2);
+            ClientSize = new Size(800, 450);
+            Controls.Add(plot1);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
@@ -68,10 +67,7 @@
         }
 
         #endregion
-
         private Button button1;
-        private plot.GraphiqueUtilisateur userPlot1;
-        private plot.GraphiqueUtilisateur graphiqueUtilisateur1;
-        private plot.GraphiqueUtilisateur graphiqueUtilisateur2;
+        private Plot plot1;
     }
 }

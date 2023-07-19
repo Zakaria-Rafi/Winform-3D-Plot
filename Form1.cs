@@ -1,5 +1,5 @@
-using plot;
-namespace _3Dplot
+
+namespace Plot3D
 {
     public partial class Form1 : Form
     {
@@ -10,7 +10,7 @@ namespace _3Dplot
 
         private void button1_Click(object sender, EventArgs e)
         {
-            graphiqueUtilisateur2.Effacer();
+            plot1.Clear();
             Random rand = new Random();
             double R = 1;
             List<double[]> Points = new List<double[]>();
@@ -30,7 +30,7 @@ namespace _3Dplot
                     double z = R * Math.Cos(theta);
                     Points.Add(new double[] { x, y, z });
                 }
-                graphiqueUtilisateur2.AjouterPoints(Points);
+                plot1.AddPoints(Points);
                 Points.Clear();
             }
 
@@ -44,7 +44,7 @@ namespace _3Dplot
                 double z = R * Math.Sin(theta);
                 Points.Add(new double[] { x, y, z });
             }
-            graphiqueUtilisateur2.AjouterPoints(Points);
+            plot1.AddPoints(Points);
         }
     }
 }

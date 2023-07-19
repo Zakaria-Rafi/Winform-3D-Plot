@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Dplot", "3Dplot.csproj", "{1847D09D-3AC5-482A-80B8-DC156FD14376}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plot3D", "Plot3D.csproj", "{70E0B1B6-F38F-45DA-8086-8549B73EBAE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1847D09D-3AC5-482A-80B8-DC156FD14376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1847D09D-3AC5-482A-80B8-DC156FD14376}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1847D09D-3AC5-482A-80B8-DC156FD14376}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1847D09D-3AC5-482A-80B8-DC156FD14376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E0B1B6-F38F-45DA-8086-8549B73EBAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E0B1B6-F38F-45DA-8086-8549B73EBAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E0B1B6-F38F-45DA-8086-8549B73EBAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E0B1B6-F38F-45DA-8086-8549B73EBAE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FCDE31F4-80D2-4CE8-ABC7-F9A3618A4A23}
+		SolutionGuid = {698B35A4-1DD6-4526-98C1-98226ECEF34F}
 	EndGlobalSection
 EndGlobal

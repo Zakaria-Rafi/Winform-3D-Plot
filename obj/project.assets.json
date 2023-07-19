@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafiz\\Desktop\\3Dplot\\3Dplot.csproj",
-      "projectName": "3Dplot",
-      "projectPath": "C:\\Users\\rafiz\\Desktop\\3Dplot\\3Dplot.csproj",
+      "projectUniqueName": "C:\\Users\\rafiz\\Desktop\\Plot3D\\Plot3D.csproj",
+      "projectName": "Plot3D",
+      "projectPath": "C:\\Users\\rafiz\\Desktop\\Plot3D\\Plot3D.csproj",
       "packagesPath": "C:\\Users\\rafiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafiz\\Desktop\\3Dplot\\obj\\",
+      "outputPath": "C:\\Users\\rafiz\\Desktop\\Plot3D\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,6 @@
-﻿namespace plot
+﻿namespace Plot3D
 {
-    partial class GraphiqueUtilisateur
+    partial class Plot
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,19 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // ScatterPlot
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "ScatterPlot";
-            this.SizeChanged += new System.EventHandler(this.GraphiqueUtilisateur_SizeChanged);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GraphiqueUtilisateur_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.GraphiqueUtilisateur_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GraphiqueUtilisateur_MouseUp);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "olhR1aX2bN5LGKX0Pu/tpxY3kzz3YjqTJcM5tHG49zzS1CD+TGivzkV34X15YBsvl+NvDMZ72Y6MrF6jY83o1Q==",
+  "dgSpecHash": "zghGgFA7ZaSQLfuRLlkH/twiSvAQJS77XY4fuK1DtXwNrFMb5Gl19kYUAFBP28urIOSzAnMIyKYKE7yout2Lqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafiz\\Desktop\\3Dplot\\3Dplot.csproj",
+  "projectFilePath": "C:\\Users\\rafiz\\Desktop\\Plot3D\\Plot3D.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
